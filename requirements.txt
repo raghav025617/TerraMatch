@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+opencv-python
+rasterio
+pystac-client
+planetary-computer

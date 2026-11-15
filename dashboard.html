@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraMatch | Orbital Analog Intelligence</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <nav class="orbital-navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-emblem">
+          <span class="orbit-ring"></span>
+          <span class="core-dot"></span>
+        </div>
+        <div>
+          <h1>TERRAMATCH</h1>
+          <p class="subtitle">Lunar and martian site analog finding, mission planning aid and inter-planetary topological analysis tool</p>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <button type="button" id="guidelinesToggle" class="guidelines-btn" aria-expanded="true">
+          <span class="info-icon">i</span> User Guidelines
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="app-shell">
+    <section id="guidelinesBubble" class="guidelines-bubble">
+      <div class="guidelines-header">
+        <div class="guidelines-title">
+          <span class="pulse-beacon"></span>
+          USER GUIDELINES — ORBITAL DATA ACQUISITION PROTOCOL
+        </div>
+        <button type="button" id="closeGuidelines" class="close-guide-btn" title="Minimize Guidelines">Hide</button>
+      </div>
+      <div class="guidelines-grid">
+        <div class="guide-step">
+          <span class="step-badge">01 · PORTAL SOURCE</span>
+          <p>Use <strong>NASA Moon Trek (3D Globe Projection)</strong> to fetch coordinates and imagery for <strong>Moon Mode</strong>, and use <strong>NASA Mars Trek</strong> for <strong>Mars Mode</strong>.</p>
+        </div>
+        <div class="guide-step">
+          <span class="step-badge">02 · VIEWING GEOMETRY</span>
+          <p>Capture strictly <strong>top-view (nadir) orbital images</strong> directly over your target site so surface slope dispersion is measured accurately.</p>
+        </div>
+        <div class="guide-step">
+          <span class="step-badge">03 · IMAGE PREPARATION</span>
+          <p><strong>Crop out any website UI</strong>, toolbars, scale bars, or map borders before uploading to ensure maximum accuracy during analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="workspace">
+      <aside class="panel control-panel">
+        <div class="panel-title">
+          <span>Mission Parameters</span>
+          <span class="mono-dim">2 INPUTS REQUIRED</span>
+        </div>
+
+        <div class="mode-switch">
+          <button type="button" id="btnMarsMode" class="mode-btn active-mars" onclick="setMode('mars')">
+            <span class="planet-dot mars-dot"></span> MARS MODE
+          </button>
+          <button type="button" id="btnMoonMode" class="mode-btn" onclick="setMode('moon')">
+            <span class="planet-dot moon-dot"></span> MOON MODE
+          </button>
+        </div>
+
+        <div class="field">
+          <label id="coordLabel">1. Mars Target Coordinates (NASA Mars Trek)</label>
+          <div class="row-2">
+            <input type="number" id="latInput" step="any" placeholder="Latitude (e.g. 18.4447)" />
+            <input type="number" id="lonInput" step="any" placeholder="Longitude (e.g. 77.4508)" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label id="chipLabel">2. Mars Top-View Orbital Image</label>
+          <div class="dropzone" id="dropzone">
+            <input type="file" id="chipFile" accept="image/*" />
+            <div class="dz-icon">+</div>
+            <div class="dz-title" id="dzTitle">Drop cropped orbital image or click to browse</div>
+            <div class="dz-sub">Supports nadir .JPG / .PNG optical tiles</div>
+            <img id="previewThumb" class="preview-thumb" alt="Selected orbital image preview" />
+          </div>
+        </div>
+
+        <button type="button" id="runBtn" class="btn-primary" onclick="runAnalysis()">
+          Run Mars Analysis &amp; Match Earth Analogs
+        </button>
+      </aside>
+
+      <section class="panel results-panel">
+        <div class="panel-title">
+          <span>Planetary Telemetry &amp; Top Earth Analogs</span>
+          <span id="activeDbTag" class="active-db-tag">MARS ORBITAL PROFILE</span>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-header-row">
+              <span class="kpi-label">Broadband Shortwave Albedo</span>
+              <span class="kpi-unit">[0.00 – 1.00]</span>
+            </div>
+            <div class="kpi-value" id="mBsa">--</div>
+            <div class="kpi-foot">Surface solar reflectance factor</div>
+          </div>
+
+          <div class="kpi-card combined-roughness-card">
+            <div class="kpi-header-row">
+              <span class="kpi-label">Surface Roughness &amp; Terrain Hazard</span>
+              <span class="kpi-unit">COMBINED DISPERSION</span>
+            </div>
+            <div class="dual-metric-split">
+              <div class="sub-metric">
+                <span class="sub-metric-name">Vector Ruggedness Measure</span>
+                <span class="kpi-value" id="mVrm">--</span>
+                <span class="kpi-foot" id="mVrmStd">Spherical normal dispersion [0–1]</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="sub-metric">
+                <span class="sub-metric-name">Rugged Hazard Area</span>
+                <span class="kpi-value accent-amber" id="mHaz">--</span>
+                <span class="kpi-foot">Steep &amp; high-dispersion terrain share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="telemetry-bar" id="statusBanner" style="display: none;"></div>
+
+        <div class="leaderboard-grid">
+          <div class="lb-card featured">
+            <div class="lb-header">
+              <span>Dual-Best Planetary Twin</span>
+              <span class="lb-subtag">TOP MATCH</span>
+            </div>
+            <div id="lbDual">
+              <div class="empty-state">Run analysis to identify the top overall Earth analog</div>
+            </div>
+          </div>
+
+          <div class="lb-card">
+            <div class="lb-header">
+              <span>Maneuverability &amp; Roughness Match</span>
+              <span class="lb-subtag">TOP MATCH</span>
+            </div>
+            <div id="lbKin">
+              <div class="empty-state">Run analysis to identify the top roughness &amp; hazard match</div>
+            </div>
+          </div>
+
+          <div class="lb-card">
+            <div class="lb-header">
+              <span>Reflectivity / Thermal Match</span>
+              <span class="lb-subtag">TOP MATCH</span>
+            </div>
+            <div id="lbBsa">
+              <div class="empty-state">Run analysis to identify the top albedo match</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay-section" id="overlayBox">
+          <div class="overlay-head">
+            <span class="overlay-title">Terrain Maneuverability Zone Mapping</span>
+            <div class="turbo-legend">
+              <span>0.00 Smooth</span>
+              <div class="turbo-bar"></div>
+              <span>0.25+ Rugged Hazard</span>
+            </div>
+          </div>
+          <img id="overlayImg" class="overlay-img" alt="Terrain Maneuverability Zone Mapping Overlay" />
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

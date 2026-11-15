@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Yungay, Atacama - Chile",
+    "coor": "-9.27437699,-77.80757642",
+    "bsa": 0.1603,
+    "vrm": 0.4553,
+    "hazard": 0.885
+  },
+  {
+    "id": 2,
+    "name": "Mauna Kea - USA",
+    "coor": "19.82679561,-155.46957322",
+    "bsa": 0.1014,
+    "vrm": 0.1818,
+    "hazard": 0.12
+  },
+  {
+    "id": 3,
+    "name": "Mauna Loa - USA",
+    "coor": "19.4719124,-155.59240932",
+    "bsa": 0.027,
+    "vrm": 0.1756,
+    "hazard": 0.238
+  },
+  {
+    "id": 4,
+    "name": "Holuhraun - Iceland",
+    "coor": "64.8499996,-16.83",
+    "bsa": 0.1003,
+    "vrm": 0.3089,
+    "hazard": 0.75
+  },
+  {
+    "id": 5,
+    "name": "Socompa-Chile",
+    "coor": "-24.3965574,-68.24598302",
+    "bsa": 0.213,
+    "vrm": 0.4667,
+    "hazard": 0.905
+  },
+  {
+    "id": 6,
+    "name": "El Tatio(Geysers) - Chile",
+    "coor": "-22.3348973,-68.01309136",
+    "bsa": 0.1737,
+    "vrm": 0.4627,
+    "hazard": 0.893
+  },
+  {
+    "id": 7,
+    "name": "Lop Nur - China",
+    "coor": "40.49847897, 90.49479496",
+    "bsa": 0.305,
+    "vrm": 0.1071,
+    "hazard": 0.0
+  },
+  {
+    "id": 8,
+    "name": "Deception Island - Antarctica",
+    "coor": "-62.94328978,-60.56284424",
+    "bsa": 0.0756,
+    "vrm": 0.2561,
+    "hazard": 0.57
+  },
+  {
+    "id": 9,
+    "name": "Craters of the Moon(USA)",
+    "coor": "43.16999466,-113.4775528",
+    "bsa": 0.0916,
+    "vrm": 0.2657,
+    "hazard": 0.526
+  },
+  {
+    "id": 10,
+    "name": "Timanfaya - Spain",
+    "coor": "29.01574773,-13.78416049",
+    "bsa": 0.0604,
+    "vrm": 0.2594,
+    "hazard": 0.532
+  },
+  {
+    "id": 11,
+    "name": "Askja(Iceland)",
+    "coor": "65.02896735,-16.67720368",
+    "bsa": 0.6334,
+    "vrm": 0.3824,
+    "hazard": 0.877
+  },
+  {
+    "id": 12,
+    "name": "Rio Tinto(Spain)",
+    "coor": "37.38361946,-6.6617449",
+    "bsa": 0.1687,
+    "vrm": 0.324,
+    "hazard": 0.908
+  },
+  {
+    "id": 13,
+    "name": "White Sands(USA)",
+    "coor": "32.92220339,-106.47766334",
+    "bsa": 0.1934,
+    "vrm": 0.1723,
+    "hazard": 0.105
+  },
+  {
+    "id": 14,
+    "name": "Amboy Crater(USA)",
+    "coor": "34.54400481,-115.79119651",
+    "bsa": 0.1907,
+    "vrm": 0.2878,
+    "hazard": 0.56
+  },
+  {
+    "id": 15,
+    "name": "Mc Murdo Dry Valleys(Antarctica)",
+    "coor": "-78.03475987, 163.64344092",
+    "bsa": 0.8244,
+    "vrm": 0.2916,
+    "hazard": 0.57
+  },
+  {
+    "id": 16,
+    "name": "Dasht-e-Lut(Iran)",
+    "coor": "30.43273223, 58.99523302",
+    "bsa": 0.2022,
+    "vrm": 0.26,
+    "hazard": 0.465
+  },
+  {
+    "id": 17,
+    "name": "Strelley Pool(Australia)",
+    "coor": "-21.10013018, 119.13219601",
+    "bsa": 0.1626,
+    "vrm": 0.4835,
+    "hazard": 0.785
+  },
+  {
+    "id": 18,
+    "name": "Haughton Crater(Canada)",
+    "coor": "75.43243052,-89.81925454",
+    "bsa": 0.4231,
+    "vrm": 0.1479,
+    "hazard": 0.057
+  },
+  {
+    "id": 19,
+    "name": "Kamil Crater(Egypt)",
+    "coor": "22.01805947, 26.08761326",
+    "bsa": 0.3529,
+    "vrm": 0.3582,
+    "hazard": 0.608
+  },
+  {
+    "id": 20,
+    "name": "Upheavel Dome(USA)",
+    "coor": "38.43461004,-109.93043301",
+    "bsa": 0.1944,
+    "vrm": 0.3979,
+    "hazard": 0.832
+  },
+  {
+    "id": 21,
+    "name": "Kau Desert(USA)",
+    "coor": "19.35263121,-155.3471087",
+    "bsa": 0.143,
+    "vrm": 0.3805,
+    "hazard": 0.933
+  },
+  {
+    "id": 22,
+    "name": "Mt. Tiede(Spain)",
+    "coor": "28.27184653,-16.64218269",
+    "bsa": 0.1358,
+    "vrm": 0.3538,
+    "hazard": 0.745
+  },
+  {
+    "id": 23,
+    "name": "White Desert(Egypt)",
+    "coor": "27.34601271, 28.21225956",
+    "bsa": 0.4508,
+    "vrm": 0.1783,
+    "hazard": 0.351
+  },
+  {
+    "id": 24,
+    "name": "Dallol(Ethiopia)",
+    "coor": "14.23873148, 40.29513341",
+    "bsa": 0.1812,
+    "vrm": 0.3817,
+    "hazard": 0.925
+  },
+  {
+    "id": 25,
+    "name": "Erg Chebbi(Morocco)",
+    "coor": "31.14638644,-3.97324815",
+    "bsa": 0.3361,
+    "vrm": 0.0665,
+    "hazard": 0.036
+  },
+  {
+    "id": 26,
+    "name": "Tso Kar Lake - Ladakh(India)",
+    "coor": "33.31207451, 77.98998316",
+    "bsa": 0.2195,
+    "vrm": 0.1331,
+    "hazard": 0.217
+  },
+  {
+    "id": 27,
+    "name": "Rann of Kutch - Gujarat(India)",
+    "coor": "24.06102935, 70.02343075",
+    "bsa": 0.0849,
+    "vrm": 0.1145,
+    "hazard": 0.031
+  },
+  {
+    "id": 28,
+    "name": "Makhtesh Ramon - Isreal",
+    "coor": "30.61447128, 34.8823351",
+    "bsa": 0.3022,
+    "vrm": 0.3568,
+    "hazard": 0.851
+  },
+  {
+    "id": 29,
+    "name": "Pinnacate Peaks - Mexico",
+    "coor": "31.76357949,-113.49342711",
+    "bsa": 0.1133,
+    "vrm": 0.4137,
+    "hazard": 0.994
+  },
+  {
+    "id": 30,
+    "name": "Gosses Bluff - Australia",
+    "coor": "-23.8200315, 132.30920047",
+    "bsa": 0.162,
+    "vrm": 0.3945,
+    "hazard": 0.929
+  },
+  {
+    "id": 31,
+    "name": "Aorounga Crater - Chad",
+    "coor": "19.08374059, 19.25758437",
+    "bsa": 0.2963,
+    "vrm": 0.1364,
+    "hazard": 0.152
+  },
+  {
+    "id": 32,
+    "name": "Lake Eyre - Australia",
+    "coor": "-28.36750154, 137.39946446",
+    "bsa": 0.3763,
+    "vrm": 0.2067,
+    "hazard": 0.202
+  },
+  {
+    "id": 33,
+    "name": "Racetrack Playa - USA",
+    "coor": "36.6968255, -117.55548258",
+    "bsa": 0.1652,
+    "vrm": 0.0308,
+    "hazard": 0.003
+  },
+  {
+    "id": 34,
+    "name": "Qaidam Basin - China",
+    "coor": "37.2700, 94.4500",
+    "bsa": 0.2213,
+    "vrm": 0.2302,
+    "hazard": 0.442
+  },
+  {
+    "id": 35,
+    "name": "Tadrart Rouge - Algeria",
+    "coor": "23.67423773, 10.89904678",
+    "bsa": 0.1976,
+    "vrm": 0.2058,
+    "hazard": 0.317
+  },
+  {
+    "id": 36,
+    "name": "Spotted Lake - Canada",
+    "coor": "49.07806, -119.56667",
+    "bsa": 0.1105,
+    "vrm": 0.2567,
+    "hazard": 0.486
+  },
+  {
+    "id": 37,
+    "name": "Samail Ophiolite - Oman",
+    "coor": "23.29936794, 58.19637405",
+    "bsa": 0.1269,
+    "vrm": 0.3667,
+    "hazard": 0.844
+  },
+  {
+    "id": 38,
+    "name": "Lake Untersee - Antarctica",
+    "coor": "-71.3333, 13.4500",
+    "bsa": 0.3886,
+    "vrm": 0.1949,
+    "hazard": 0.272
+  },
+  {
+    "id": 39,
+    "name": "Karkevagge - Sweden",
+    "coor": "68.38808866, 18.33819566",
+    "bsa": 0.3684,
+    "vrm": 0.419,
+    "hazard": 0.954
+  },
+  {
+    "id": 40,
+    "name": "Eye of the Sahara - Mauritania",
+    "coor": "21.12400000, -11.40200000",
+    "bsa": 0.2707,
+    "vrm": 0.1309,
+    "hazard": 0.433
+  },
+  {
+    "id": 41,
+    "name": "Yardang National Geopark - China",
+    "coor": "40.05904581, 94.69287417",
+    "bsa": 0.212,
+    "vrm": 0.1267,
+    "hazard": 0.072
+  },
+  {
+    "id": 42,
+    "name": "Arkenu Structures - Libya",
+    "coor": "22.1013886, 23.798333",
+    "bsa": 0.3653,
+    "vrm": 0.2708,
+    "hazard": 0.451
+  },
+  {
+    "id": 43,
+    "name": "Caldera Blanca - Spain",
+    "coor": "29.04215977, -13.73108181",
+    "bsa": 0.1002,
+    "vrm": 0.2807,
+    "hazard": 0.612
+  },
+  {
+    "id": 44,
+    "name": "Wadi Rum Reserver - Jordan",
+    "coor": "29.30815846, 35.43892328",
+    "bsa": 0.2552,
+    "vrm": 0.4841,
+    "hazard": 0.975
+  },
+  {
+    "id": 45,
+    "name": "Charyn Canyon - Kazakhstan",
+    "coor": "43.35606085, 79.07089523",
+    "bsa": 0.1444,
+    "vrm": 0.3323,
+    "hazard": 0.702
+  },
+  {
+    "id": 46,
+    "name": "Salar de Uyuni - Bolivia",
+    "coor": "-20.19704725,-67.52597173",
+    "bsa": 0.6009,
+    "vrm": 0.5238,
+    "hazard": 0.989
+  },
+  {
+    "id": 47,
+    "name": "Lamayuru Moonland - Ladakh, India",
+    "coor": "34.28836025, 76.7836208",
+    "bsa": 0.1328,
+    "vrm": 0.2982,
+    "hazard": 0.585
+  },
+  {
+    "id": 48,
+    "name": "Harrat Rahat - Saudi Arabia",
+    "coor": "23.22500000, 39.96500000",
+    "bsa": 0.1139,
+    "vrm": 0.4205,
+    "hazard": 0.909
+  },
+  {
+    "id": 49,
+    "name": "Salar de Antofalla - Argentina",
+    "coor": "-25.71649381, -67.72090832",
+    "bsa": 0.2137,
+    "vrm": 0.3651,
+    "hazard": 0.958
+  },
+  {
+    "id": 50,
+    "name": "Barringer Crater - USA",
+    "coor": "35.02771069,-111.01775802",
+    "bsa": 0.1425,
+    "vrm": 0.532,
+    "hazard": 0.997
+  }
+]

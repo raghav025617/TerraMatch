@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Cinder Lake Crater Field (USA)",
+    "coor": "35.319892, -111.517089",
+    "bsa": 0.0819,
+    "vrm": 0.1753,
+    "hazard": 0.1552
+  },
+  {
+    "id": 4,
+    "name": "Haughton Crater (Canada)",
+    "coor": "75.400494, -89.767408",
+    "bsa": 0.2403,
+    "vrm": 0.1726,
+    "hazard": 0.1141
+  },
+  {
+    "id": 14,
+    "name": "Kamil Crater (Egypt)",
+    "coor": "22.018147, 26.087894",
+    "bsa": 0.353,
+    "vrm": 0.3503,
+    "hazard": 0.7928
+  },
+  {
+    "id": 43,
+    "name": "Mauna Kea / PISCES (USA)",
+    "coor": "19.830678, -155.501903",
+    "bsa": 0.085,
+    "vrm": 0.181,
+    "hazard": 0.1636
+  },
+  {
+    "id": 44,
+    "name": "Mauna Loa (USA)",
+    "coor": "19.475108, -155.605328",
+    "bsa": 0.0266,
+    "vrm": 0.2217,
+    "hazard": 0.2814
+  },
+  {
+    "id": 45,
+    "name": "Kīlauea (USA)",
+    "coor": "19.400731, -155.285208",
+    "bsa": 0.1545,
+    "vrm": 0.4539,
+    "hazard": 0.957
+  },
+  {
+    "id": 46,
+    "name": "Kau Desert (USA)",
+    "coor": "19.344086, -155.316525",
+    "bsa": 0.1415,
+    "vrm": 0.2637,
+    "hazard": 0.5302
+  },
+  {
+    "id": 47,
+    "name": "Haleakalā (USA)",
+    "coor": "20.704236, -156.235817",
+    "bsa": 0.0977,
+    "vrm": 0.25,
+    "hazard": 0.4164
+  },
+  {
+    "id": 48,
+    "name": "Craters of the Moon (USA)",
+    "coor": "43.420978, -113.559128",
+    "bsa": 0.0552,
+    "vrm": 0.4509,
+    "hazard": 0.9985
+  },
+  {
+    "id": 49,
+    "name": "Hell's Half Acre Lava Field (USA)",
+    "coor": "43.499539, -112.450967",
+    "bsa": 0.0905,
+    "vrm": 0.4441,
+    "hazard": 0.9965
+  },
+  {
+    "id": 50,
+    "name": "Kings Bowl Lava Field (USA)",
+    "coor": "42.949292, -113.215967",
+    "bsa": 0.1084,
+    "vrm": 0.5278,
+    "hazard": 0.9982
+  },
+  {
+    "id": 51,
+    "name": "Wapi Lava Field (USA)",
+    "coor": "42.818950, -113.201256",
+    "bsa": 0.0785,
+    "vrm": 0.4899,
+    "hazard": 0.9968
+  },
+  {
+    "id": 52,
+    "name": "Shoshone Lava Tube Caves (USA)",
+    "coor": "43.172467, -114.346611",
+    "bsa": 0.1172,
+    "vrm": 0.4768,
+    "hazard": 0.9915
+  },
+  {
+    "id": 54,
+    "name": "Black Point Lava Flow (USA)",
+    "coor": "35.689850, -111.345581",
+    "bsa": 0.1944,
+    "vrm": 0.4732,
+    "hazard": 0.9895
+  },
+  {
+    "id": 56,
+    "name": "Kana-a Lava Flow (USA)",
+    "coor": "35.397258, -111.417275",
+    "bsa": 0.0663,
+    "vrm": 0.5142,
+    "hazard": 0.98
+  },
+  {
+    "id": 57,
+    "name": "Lava Beds National Monument (USA)",
+    "coor": "41.775172, -121.507000",
+    "bsa": 0.111,
+    "vrm": 0.4554,
+    "hazard": 0.9935
+  },
+  {
+    "id": 58,
+    "name": "Lunar Crater Volcanic Field (USA)",
+    "coor": "38.384806, -116.070639",
+    "bsa": 0.1161,
+    "vrm": 0.5972,
+    "hazard": 0.9992
+  },
+  {
+    "id": 60,
+    "name": "Newberry Volcano (USA)",
+    "coor": "43.721969, -121.230208",
+    "bsa": 0.0669,
+    "vrm": 0.5121,
+    "hazard": 0.9844
+  },
+  {
+    "id": 62,
+    "name": "Zuni-Bandera Volcanic Field (USA)",
+    "coor": "34.805794, -108.000944",
+    "bsa": 0.087,
+    "vrm": 0.3513,
+    "hazard": 0.8752
+  },
+  {
+    "id": 63,
+    "name": "Valley of Fires (USA)",
+    "coor": "33.683317, -105.930550",
+    "bsa": 0.1141,
+    "vrm": 0.4335,
+    "hazard": 0.9297
+  },
+  {
+    "id": 65,
+    "name": "Ubehebe Crater (USA)",
+    "coor": "37.010036, -117.450258",
+    "bsa": 0.1595,
+    "vrm": 0.3635,
+    "hazard": 0.8113
+  },
+  {
+    "id": 76,
+    "name": "Mount Teide (Spain)",
+    "coor": "28.272156, -16.643092",
+    "bsa": 0.1364,
+    "vrm": 0.4422,
+    "hazard": 0.957
+  },
+  {
+    "id": 82,
+    "name": "Holuhraun (Iceland)",
+    "coor": "64.848900, -16.825503",
+    "bsa": 0.095,
+    "vrm": 0.3744,
+    "hazard": 0.952
+  },
+  {
+    "id": 84,
+    "name": "Reykjanes Peninsula (Iceland)",
+    "coor": "63.918400, -22.398994",
+    "bsa": 0.6593,
+    "vrm": 0.5532,
+    "hazard": 0.9989
+  },
+  {
+    "id": 87,
+    "name": "Kverkfjöll (Iceland)",
+    "coor": "64.680511, -16.682931",
+    "bsa": 0.6583,
+    "vrm": 0.363,
+    "hazard": 0.7628
+  },
+  {
+    "id": 92,
+    "name": "Mount Erebus (Antarctica)",
+    "coor": "-77.530217, 167.158206",
+    "bsa": 0.2728,
+    "vrm": 0.4534,
+    "hazard": 0.8301
+  },
+  {
+    "id": 136,
+    "name": "Rogers Dry Lake (USA)",
+    "coor": "34.918442, -117.824153",
+    "bsa": 0.343,
+    "vrm": 0.1183,
+    "hazard": 0.0143
+  },
+  {
+    "id": 137,
+    "name": "Black Rock Desert (USA)",
+    "coor": "40.914867, -119.019922",
+    "bsa": 0.1963,
+    "vrm": 0.0765,
+    "hazard": 0.0013
+  },
+  {
+    "id": 139,
+    "name": "Bonneville Salt Flats (USA)",
+    "coor": "40.821239, -113.827681",
+    "bsa": 0.3529,
+    "vrm": 0.2684,
+    "hazard": 0.5679
+  },
+  {
+    "id": 140,
+    "name": "White Sands (USA)",
+    "coor": "32.784864, -106.331158",
+    "bsa": 0.2384,
+    "vrm": 0.4569,
+    "hazard": 0.8965
+  },
+  {
+    "id": 141,
+    "name": "Death Valley (USA)",
+    "coor": "36.540028, -116.939033",
+    "bsa": 0.1643,
+    "vrm": 0.3613,
+    "hazard": 0.9624
+  },
+  {
+    "id": 142,
+    "name": "Racetrack Playa (USA)",
+    "coor": "36.679858, -117.562603",
+    "bsa": 0.302,
+    "vrm": 0.1467,
+    "hazard": 0.2578
+  },
+  {
+    "id": 149,
+    "name": "Makhtesh Ramon (Israel)",
+    "coor": "30.615281, 34.882114",
+    "bsa": 0.2574,
+    "vrm": 0.3031,
+    "hazard": 0.676
+  },
+  {
+    "id": 150,
+    "name": "Namib Desert (Namibia)",
+    "coor": "-25.175033, 15.796611",
+    "bsa": 0.3374,
+    "vrm": 0.0484,
+    "hazard": 0.0
+  },
+  {
+    "id": 153,
+    "name": "Erg Chebbi (Morocco)",
+    "coor": "31.148286, -3.975461",
+    "bsa": 0.7884,
+    "vrm": 0.0572,
+    "hazard": 0.0061
+  },
+  {
+    "id": 172,
+    "name": "Dome C / Concordia Station (Antarctica)",
+    "coor": "-75.098814, 123.355778",
+    "bsa": 0.8886,
+    "vrm": 0.3995,
+    "hazard": 0.9578
+  },
+  {
+    "id": 173,
+    "name": "McMurdo Dry Valleys (Antarctica)",
+    "coor": "-77.494944, 163.850817",
+    "bsa": 0.5458,
+    "vrm": 0.2391,
+    "hazard": 0.4902
+  },
+  {
+    "id": 176,
+    "name": "Svalbard (Norway)",
+    "coor": "78.360089, 13.459489",
+    "bsa": 0.7936,
+    "vrm": 0.5335,
+    "hazard": 0.9549
+  },
+  {
+    "id": 177,
+    "name": "Devon Island (Canada)",
+    "coor": "75.165861, -85.670008",
+    "bsa": 0.1416,
+    "vrm": 0.2266,
+    "hazard": 0.4265
+  },
+  {
+    "id": 183,
+    "name": "Meteor Crater (USA)",
+    "coor": "35.022803, -111.022597",
+    "bsa": 0.1416,
+    "vrm": 0.5623,
+    "hazard": 0.9929
+  },
+  {
+    "id": 184,
+    "name": "Kamestastin (Mistastin) Crater (Canada)",
+    "coor": "55.888394, -63.418233",
+    "bsa": 0.2202,
+    "vrm": 0.6027,
+    "hazard": 1.0
+  },
+  {
+    "id": 185,
+    "name": "Nevada National Security Site (USA)",
+    "coor": "36.604353, -116.015206",
+    "bsa": 0.1649,
+    "vrm": 0.5181,
+    "hazard": 0.9988
+  },
+  {
+    "id": 186,
+    "name": "Kilbourne Hole (USA)",
+    "coor": "31.977456, -106.970336",
+    "bsa": 0.1843,
+    "vrm": 0.5208,
+    "hazard": 0.9901
+  },
+  {
+    "id": 187,
+    "name": "SP Mountain (USA)",
+    "coor": "35.581736, -111.622722",
+    "bsa": 0.126,
+    "vrm": 0.3418,
+    "hazard": 0.7194
+  },
+  {
+    "id": 188,
+    "name": "Hopi Buttes Volcanic Field (USA)",
+    "coor": "35.465450, -110.206889",
+    "bsa": 0.1595,
+    "vrm": 0.4455,
+    "hazard": 0.9967
+  },
+  {
+    "id": 189,
+    "name": "Lava River Cave (USA)",
+    "coor": "35.324511, -111.905114",
+    "bsa": 0.092,
+    "vrm": 0.3525,
+    "hazard": 0.9701
+  },
+  {
+    "id": 190,
+    "name": "Sunset Crater (USA)",
+    "coor": "35.363497, -111.502292",
+    "bsa": 0.0636,
+    "vrm": 0.3484,
+    "hazard": 0.7823
+  },
+  {
+    "id": 191,
+    "name": "Grand Canyon (USA)",
+    "coor": "36.130456, -112.124031",
+    "bsa": 0.1174,
+    "vrm": 0.5008,
+    "hazard": 0.9885
+  },
+  {
+    "id": 192,
+    "name": "Valley of Ten Thousand Smokes (USA)",
+    "coor": "58.393908, -155.384367",
+    "bsa": 0.1192,
+    "vrm": 0.4098,
+    "hazard": 0.967
+  },
+  {
+    "id": 201,
+    "name": "Sierra Madera impact structure (Texas, USA)",
+    "coor": "30.588444, -102.919644",
+    "bsa": 0.1651,
+    "vrm": 0.6025,
+    "hazard": 0.9879
+  }
+]
